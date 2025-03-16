@@ -98,3 +98,69 @@ TWRPDTGEN is a Python library and script that automatically generates a TWRP-com
 
 #### Official : 
 https://github.com/twrpdtgen/twrpdtgen
+
+To install CPIO on Windows, you generally need to use a Unix compatibility layer, as CPIO is a utility typically found on Unix/Linux systems. Here are a few possible options to install CPIO in a Windows environment:
+---
+### Using Cygwin
+
+Cygwin provides a Unix-like environment on Windows. Once Cygwin is installed, you can install CPIO.
+
+Steps:
+
+1. Download and install Cygwin from the official website.
+
+
+2. When you reach the package selection screen during installation, search for cpio in the list (you can use the search bar at the top-left of the package selection window).
+
+
+3. Select cpio and install it.
+
+
+4. Once the installation is complete, open the Cygwin terminal, and type cpio --version to check the installation.
+
+
+
+### Using WSL (Windows Subsystem for Linux)
+
+If you are using Windows 10 or a newer version, you can enable WSL, which allows you to run a full Linux distribution on Windows.
+
+Steps:
+
+1. Enable WSL by following these Microsoft instructions: Install WSL on Windows.
+
+
+2. Once installed, launch a Linux distribution via your chosen application (Ubuntu, Debian, etc.).
+
+
+3. Use the following command to install cpio: sudo apt-get update && sudo apt-get install cpio
+
+
+4. Check the installation by typing cpio --version in the terminal of your Linux distribution.
+
+### Using Git Bash
+
+If you have Git Bash installed, CPIO might already be available. Git Bash allows you to run Unix/Linux commands on Windows.
+
+Steps:
+If you don't have Git Bash, download it from the Git website.
+
+Open Git Bash and type cpio --version to see if it's already installed. If not, you can install it via Cygwin or WSL as mentioned above.
+
+
+Using MinGW or MSYS2
+
+Another way to get Unix/Linux tools on Windows is to install MinGW or MSYS2, which are environments similar to Cygwin but lighter.
+
+Steps for MSYS2:
+
+Download and install MSYS2 from the official website.
+
+Open the MSYS2 terminal and update the packages with: pacman -Syu
+
+Install cpio using: pacman -S cpio
+
+Verify the installation with cpio --version.
+    
+Cygwin, WSL, Git Bash, and MSYS2 are the main options for installing CPIO on Windows. The most integrated method would be to use WSL to get a full Linux environment, but if you are looking for a lighter solution, Git Bash or MSYS2 may suffice.
+
+
