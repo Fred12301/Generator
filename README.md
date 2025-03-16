@@ -1,4 +1,6 @@
-This Python script is a graphical user interface (GUI) built with Kivy for interacting with the TWRPDTGEN tool. TWRPDTGEN is a library used to generate device trees compatible with TWRP recovery images. Here’s a breakdown of the code:
+![1000000717](https://github.com/user-attachments/assets/484ede5c-0e59-4ccf-b8b9-d1a5a563525d)
+
+#### This Python script is a graphical user interface (GUI) built with Kivy for interacting with the TWRPDTGEN tool. TWRPDTGEN is a library used to generate device trees compatible with TWRP recovery images. Here’s a breakdown of the code:
 
 1. Imports
 
@@ -94,5 +96,5 @@ This script is a convenient tool for creating custom TWRP device trees from Andr
 
 TWRPDTGEN is a Python library and script that automatically generates a TWRP-compatible device tree from an Android boot or recovery image. It supports Android images from version 4.4 to 12. The script is compatible with Python 3.8 or higher and requires cpio to be installed on Linux systems. (github.com)
 
-Official : 
+#### Official : 
 https://github.com/twrpdtgen/twrpdtgen
